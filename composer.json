@@ -1,6 +1,7 @@
 {
   "name":"igonaf/emailvalidator",
   "description": "Detects and validates email(s) in a string",
+  "license": "MIT",
   "authors": [
     {
       "name": "Igor L",
