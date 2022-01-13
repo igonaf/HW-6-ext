@@ -1,10 +1,10 @@
 <?php
 
-namespace IgorValidator\Sapis;
+namespace Igonaf\Validator\Sapis;
 
-use IgorValidator\Contractors\SapiInterface;
-use IgorValidator\EmailValidator;
-use IgorValidator\StringHelper;
+use Igonaf\Validator\Contractors\SapiInterface;
+use Igonaf\Validator\EmailValidator;
+use Igonaf\Validator\StringHelper;
 
 class Cli implements SapiInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace IgorValidator;
+namespace Igonaf\Validator;
 
-use IgorValidator\Sapis\Cli;
-use IgorValidator\Sapis\Http;
+use Igonaf\Validator\Sapis\Cli;
+use Igonaf\Validator\Sapis\Http;
 
 class App
 {

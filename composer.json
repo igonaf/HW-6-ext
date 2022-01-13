@@ -1,0 +1,18 @@
+{
+  "name":"igonaf/emailvalidator",
+  "description": "Detects and validates email(s) in a string",
+  "authors": [
+    {
+      "name": "Igor L",
+      "email": "litovkahappy@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+  },
+  "autoload":{
+    "psr-4":{
+      "Igonaf\\Validator\\" : "src/"
+    }
+  }
+}

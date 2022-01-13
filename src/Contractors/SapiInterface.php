@@ -1,6 +1,6 @@
 <?php
 
-namespace IgorValidator\Contractors;
+namespace Igonaf\Validator\Contractors;
 
 interface SapiInterface
 {

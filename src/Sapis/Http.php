@@ -1,8 +1,8 @@
 <?php
 
-namespace IgorValidator\Sapis;
+namespace Igonaf\Validator\Sapis;
 
-use IgorValidator\Contractors\SapiInterface;
+use Igonaf\Validator\Contractors\SapiInterface;
 
 class Http implements SapiInterface
 {

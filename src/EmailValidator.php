@@ -1,6 +1,6 @@
 <?php
 
-namespace IgorValidator;
+namespace Igonaf\Validator;
 
 class EmailValidator
 {
