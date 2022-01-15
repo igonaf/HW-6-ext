@@ -14,13 +14,9 @@ class EmailValidator
         $this->string = $string;
     }
 
-    public function verify()
+    public function verify(): bool
     {
-        if ($this->isValidEmail() && $this->isMXRecordCorrespondingToGivenHost()) {
-            return true;
-        }
-
-        return false;
+        return ($this->isValidEmail() && $this->isMXRecordCorrespondingToGivenHost());
     }
 
     public function isValidEmail(): bool
